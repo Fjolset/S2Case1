@@ -28,7 +28,7 @@ overflow-y: hidden;
     padding: 0px;
     margin: 0px;
     height: 775px;
-    width: 5100px;
+    width: 10000px;
 }
 /** se kommentaren ovenover**/
 .webpage{
@@ -36,7 +36,7 @@ overflow-y: hidden;
     height: 770px;
 }
 .flex{
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -57,7 +57,12 @@ overflow-y: hidden;
 .prove{
     overflow: hidden;
 }
-
+.snor{
+    position: absolute;
+    width: 400px;
+    margin-top: -10%;
+    z-index: 2;
+}
 
 
 
