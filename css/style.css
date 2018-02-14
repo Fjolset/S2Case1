@@ -13,21 +13,49 @@ body
 {
 overflow-y: hidden;
 }
-
 #b {
-    width: 1600px;
+    width: 100%;
     border: 1px solid #111;
     padding: 0px;
     margin: 0px;
     overflow-x: scroll;
     overflow-y: hidden;
 }
+/** Forældre classes img_holder får koden for flexboks, således at child elementerne "webpage" ligger til højre for hinandens **/
 .img_holder {
+    display: flex;
+    flex-wrap: nowrap;
     padding: 0px;
     margin: 0px;
     height: 775px;
     width: 5100px;
 }
+/** se kommentaren ovenover**/
+.webpage{
+    width: 1550px;
+    height: 770px;
+    border: solid;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Dvideo{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+/** infoboks skal sidde i midten **/
+.infobox{
+    width: 30%;
+    height: 450px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.prove{
+    overflow: hidden;
+}
+
 
 
 
