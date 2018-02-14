@@ -34,7 +34,9 @@ overflow-y: hidden;
 .webpage{
     width: 1550px;
     height: 770px;
-    border: solid;
+}
+.flex{
+    background-color: whitesmoke;
     display: flex;
     flex-wrap: nowrap;
 }
