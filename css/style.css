@@ -12,6 +12,12 @@ body
 {
 overflow-y: hidden;
 }
+
+.prove
+{
+
+}
+
 #b {
     width: 100%;
     border: 1px solid #111;
@@ -56,6 +62,8 @@ overflow-y: hidden;
 }
 .prove{
     overflow: hidden;
+    
+    box-shadow: 5px 5px 5px #888888;
 }
 .snor{
     position: absolute;
@@ -83,7 +91,6 @@ overflow-y: hidden;
     animation-name: rotateYarn;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    
 }
 
 
