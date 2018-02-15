@@ -6,7 +6,6 @@ scrollbar
 *
 {
     box-sizing: border-box;
-    background-color: white;
     margin: 0%;
 }
 body
@@ -64,7 +63,27 @@ overflow-y: hidden;
     z-index: 2;
 }
 
+#yarn
+{
+    position: fixed;
+    float: left;
+    margin-top: 600px;
+    margin-left: 1400px;
+}
 
+@keyframes rotateYarn
+{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.yarnRotate
+{
+    animation-name: rotateYarn;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
 
 
 
