@@ -33,23 +33,48 @@
             <div class="webpage flex">
                 <!-- classen infobox = position/størrelse og classen "flex" position af tekst og billede -->
                 <div class="infobox proves">
-                    <p>Hvad er Lorem Ipsum? Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer. Sætningen blev gjordt kendt i 1960'erne med lanceringen af Letraset-ark, som indeholdt afsnit med Lorem Ipsum, og senere med layoutprogrammer som Aldus PageMaker, som også indeholdt en udgave af Lorem Ipsum.</p>
-                    
+                    <p><br>Tommy and Brian are the owners of Colorcloudknit. In addition to being the owner of Colorcloudknit, they also have an education within their respective fields architect and lawyer.<br><br>
+
+In 1994 Tommy bought a cashmere sweater in Berlin. The quality of the trousers was very high due to the yarn it had been knitted. The shirt has now lasted for 24 years, and it's close to being as good as new, it only needs some miner repairing, but it's still a well-functioning tight shirt.<br>
+This was the kick-start for Tommy to get the idea to produce cashmere sweaters. He met Brian a few years later, and quickly decided that they should do something together.<br><br>
+
+After more than two years of research to try to comprehend and understanding of the properties and potentials of cashmere fibers, capabilities of alternate design details, different knitting and twisting techniques, and endless prototype reiterations, their Colorcloudstudio unisex, luxury sweaters are now available for sale!
+</p>
+
                 </div>
                 <div class="infobox prove">
-                 <img src="image/tommy.png" alt="prøve" width="100%;">
+                    <img src="image/tommy.png" alt="prøve" width="100%;">
                 </div>
-                
+
             </div>
-            <div class="webpage">
+            <div id="3" class="webpage">
                 <img src="image/mood7.jpg" alt="prove2" width="100%">
-                </div>
+            </div>
         </div>
+
+        <div class="dotstyle dotstyle-hop">
+            <ul>
+                <li class="current dot1"><a href="#C1">Home</a></li>
+                <li class="dot2"><a href="#c2">About</a></li>
+                <li class="dot3"><a href="#C3">Products</a></li>
+                <li class="dot4"><a href="#">Portfolio</a></li>
+                <li class="dot5"><a href="#">Blog</a></li>
+                <li class="dot6"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
     </div>
 </body>
-
 <!-- Script links skal ligge i bunden da den skal ramme classes og ID's -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/javascript.js"></script>
-
+<script>
+    [].slice.call(document.querySelectorAll('.dotstyle > ul')).forEach(function(nav) {
+        new DotNav(nav, {
+            callback: function(idx) {
+                //console.log( idx )
+            }
+        });
+    });
+</script>
 </html>
