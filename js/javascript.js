@@ -1,3 +1,4 @@
+
 var scroller = {};
 scroller.e = document.getElementById("b");
 
@@ -21,14 +22,18 @@ function MouseWheelHandler(e)
    
     var tal = 0;
     
-    if(scroller.e.scrollLeft+20)
+    if(scroller.e.scrollLeft==50)
         {
             console.log("X ER = " + scroller.e.scrollLeft);
             
-            tal++;
-            console.log(tal);
-            
             garn.style.transform = "rotate(20deg)";
+        }
+    
+    
+    
+    if(scroller.e.scrollLeft==1540)
+        {
+            documents.getElementById("dvideo")
         }
     
     if (pst < 0) 
