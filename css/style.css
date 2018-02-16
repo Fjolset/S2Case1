@@ -48,7 +48,6 @@ overflow-y: hidden;
 }
 .Dvideo{
     width: 100%;
-    height: 100%;
     border: none;
 }
 /** infoboks skal sidde i midten **/
@@ -77,8 +76,8 @@ overflow-y: hidden;
 {
     position: fixed;
     float: left;
-    margin-top: 600px;
-    margin-left: 1400px;
+    margin-top: 617px;
+    margin-left: 1420px;
 }
 
 @keyframes rotateYarn
