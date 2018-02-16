@@ -33,13 +33,14 @@ overflow-y: hidden;
     padding: 0px;
     margin: 0px;
     height: 775px;
-    width: 10000px;
+    width: 50000px;
 }
 /** se kommentaren ovenover**/
 .webpage{
     width: 1550px;
     height: 770px;
 }
+
 .flex{
     background-color: white;
     display: flex;
