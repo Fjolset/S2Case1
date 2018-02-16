@@ -30,10 +30,9 @@ function MouseWheelHandler(e)
         }
     
     
-    
     if(scroller.e.scrollLeft==1540)
         {
-            documents.getElementById("dvideo")
+            console.log("hej");
         }
     
     if (pst < 0) 
